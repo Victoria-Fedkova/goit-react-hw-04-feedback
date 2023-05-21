@@ -57,13 +57,6 @@ const App = () => {
     setMessage(message);
   }, []);
 
-  const createMessage = name => {
-    // setTimeout(() => {
-    //   message = '';
-    //   this.setState(prevState => ({ ...prevState }));
-    // }, 1500); // костиль для ререндеру message, щоб зникало повідомлення, бо по умові ДЗ не можна змінювати state
-  };
-
   return (
     <Container>
       <Section title="Please leave your feedback">
